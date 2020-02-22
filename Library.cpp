@@ -6,12 +6,12 @@
 #include "Library.h"
 
 Library::Library(int nbrBook, int daysSignUp,
-        int shipPerDay,
-        const vector<int> &books)
+                 int shipPerDay,
+                 const vector<int> &books)
         : nbrBook(nbrBook),
-        daysSignUp(daysSignUp),
-        shipPerDay(shipPerDay),
-        books(books) {
+          daysSignUp(daysSignUp),
+          shipPerDay(shipPerDay),
+          books(books) {
 
 }
 
